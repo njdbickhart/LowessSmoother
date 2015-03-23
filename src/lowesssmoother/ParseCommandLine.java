@@ -10,7 +10,8 @@ package lowesssmoother;
  */
 public class ParseCommandLine {
     private final String nl = System.lineSeparator();
-    public String Usage = "LowessSmoother -i <input data matrix> [-b <ref genome coords> + -r <ref genome> || -f <fasta file>] -o output file name" + nl
+    public String Usage = "LowessSmoother -i <input data matrix> [-b <ref genome coords> + -r <ref genome> || -f <fasta file>] -o output file name" + nl 
+            + "Version 0.0.1" + nl
             + "Detailed description:" + nl + nl
             + "\t-i Data matrix\tThis is a tab delimited file with sample names in the columns and chromosome locations (that correspond to entries in the bed file (-b)) in the rows. Must have a header with the sample names for each corresponding column" + nl
             + "\t\texample:\tanimal1\tanimal2\tanimal3" + nl
